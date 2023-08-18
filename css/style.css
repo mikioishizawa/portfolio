@@ -110,50 +110,51 @@ body {
 
 .top{
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   position: relative;
 }
 
 .head1{
-  position: absolute;
-  top:500px;
-  left:300px;
+  /*position: absolute;*/
   width: 600px;
   height: 400px;
+  /*margin-top: 200px;
+  margin-left: 350px;*/
   z-index: 2;
   border-radius: 30px;
 }
 
 .head2 {
-  position: absolute;
-  left:700px;
-  width: 600px;
+  /*position: absolute;*/
+  /*left:670px;*/
+  width: 570px;
   height: 400px;
   z-index: 2;
   border-radius: 30px;
 }
 
 .head3 {
-  position: absolute;
-  width: 500px;
+  /*position: absolute;*/
+  width: 600px;
   height: 400px;
-  top:300px;
-
+  /*top:450px;
+  left: 50px;*/
   z-index: 2;
   border-radius: 30px;
 }
 
 .top-warp__ttl {
-position: absolute;
+/*position: absolute;*/
 z-index: 2;
 }
 
 .text {
   font-size: 5rem;
-  margin-top: 200px;
-  margin-left: 600px;
-  position: absolute;
+  margin-top: 580px;
+  margin-left: 800px;
+  /*position: absolute;*/
+  word-wrap: normal;
+  width: 400px;
 }
 
 .ellipse {
